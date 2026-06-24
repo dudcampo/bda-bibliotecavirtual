@@ -1,1 +1,3 @@
 # bda-bibliotecavirtual
+
+Para validar a análise comparativa de desempenho das estruturas de indexação no sistema MongoDB, desenvolvemos uma aplicação experimental utilizando a linguagem Python 3.14 e o driver PyMongo, utilizando o Visual Code Studio. A arquitetura da aplicação foi projetada de forma modular, dividindo as responsabilidades de conexão, persistência, indexação e busca em arquivos distintos, orquestrados por um módulo centralizador (main.py). A massa de dados utilizada provém de um acervo governamental real de bibliotecas (exemplares-acervo.csv), contendo registros detalhados de publicações.
